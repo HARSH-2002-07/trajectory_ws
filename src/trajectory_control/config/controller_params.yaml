@@ -1,0 +1,15 @@
+trajectory_controller_node:
+  ros__parameters:
+    # Controller parameters
+    lookahead_distance: 0.5        # meters
+    max_linear_velocity: 0.22      # m/s (TurtleBot3 max: 0.22)
+    max_angular_velocity: 2.84     # rad/s (TurtleBot3 max: 2.84)
+    goal_tolerance: 0.1            # meters
+    control_frequency: 20.0        # Hz
+    
+    # Path smoothing parameters
+    points_per_segment: 20         # Points between waypoints
+    
+    # Robot parameters
+    wheel_base: 0.160              # meters (TurtleBot3 Burger)
+    robot_radius: 0.105            # meters

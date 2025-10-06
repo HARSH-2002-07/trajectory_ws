@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/kits/trajectory_ws/build/trajectory_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kits/trajectory_ws/build/trajectory_control -- -j16 -l16
+[0.051s] [ 25%] Built target gtest_main
+[0.052s] [ 50%] Built target gtest
+[0.053s] [ 75%] Built target trajectory_controller_node
+[0.069s] [100%] Built target trajectory_control_test
+[0.079s] Invoked command in '/home/kits/trajectory_ws/build/trajectory_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kits/trajectory_ws/build/trajectory_control -- -j16 -l16
+[0.086s] Invoking command in '/home/kits/trajectory_ws/build/trajectory_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kits/trajectory_ws/build/trajectory_control
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/lib/trajectory_control/trajectory_controller_node
+[0.094s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//launch
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//launch/trajectory_controller.launch.py
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//config
+[0.095s] -- Installing: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//config/trajectory_control.rviz
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//config/controller_params.yaml
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/lib/trajectory_control/waypoint_publisher.py
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/ament_index/resource_index/package_run_dependencies/trajectory_control
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/ament_index/resource_index/parent_prefix_path/trajectory_control
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/environment/path.sh
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/environment/path.dsv
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/local_setup.bash
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/local_setup.sh
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/local_setup.zsh
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/local_setup.dsv
+[0.095s] -- Installing: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/package.dsv
+[0.095s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/ament_index/resource_index/packages/trajectory_control
+[0.096s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/cmake/trajectory_controlConfig.cmake
+[0.096s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/cmake/trajectory_controlConfig-version.cmake
+[0.096s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control/package.xml
+[0.097s] Invoked command in '/home/kits/trajectory_ws/build/trajectory_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kits/trajectory_ws/build/trajectory_control

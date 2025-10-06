@@ -1,0 +1,78 @@
+[0.008s] Invoking command in '/home/kits/trajectory_ws/build/trajectory_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kits/trajectory_ws/build/trajectory_control -- -j16 -l16
+[0.027s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.117s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.121s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.151s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.216s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.243s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.250s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.262s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.281s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.300s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.302s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.345s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.347s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.348s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.352s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.354s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.404s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.410s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.410s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.410s] -- Configured cppcheck include dirs: /home/kits/trajectory_ws/src/trajectory_control/include;$<BUILD_INTERFACE:/home/kits/trajectory_ws/src/trajectory_control/include>
+[0.410s] -- Configured cppcheck exclude dirs and/or files: 
+[0.411s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.411s] -- Configured cpplint exclude dirs and/or files: 
+[0.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.412s] -- Added test 'lint_cmake' to check CMake code style
+[0.412s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.412s] -- Added test 'uncrustify' to check C / C++ code style
+[0.413s] -- Configured uncrustify additional arguments: 
+[0.413s] -- Added test 'xmllint' to check XML markup files
+[0.414s] -- Configuring done
+[0.430s] -- Generating done
+[0.435s] -- Build files have been written to: /home/kits/trajectory_ws/build/trajectory_control
+[0.460s] [35m[1mConsolidate compiler generated dependencies of target trajectory_controller_node[0m
+[0.460s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.460s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.467s] [ 10%] [32mBuilding CXX object CMakeFiles/obstacle_avoidance_controller.dir/src/obstacle_avoidance_controller.cpp.o[0m
+[0.473s] [ 30%] Built target gtest_main
+[0.474s] [ 50%] Built target gtest
+[0.481s] [35m[1mConsolidate compiler generated dependencies of target trajectory_control_test[0m
+[0.487s] [ 70%] Built target trajectory_controller_node
+[0.491s] [ 90%] Built target trajectory_control_test
+[1.971s] [01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:[m[K In member function ‘[01m[Kdouble DWAObstacleAvoidance::evaluate_trajectory(const std::vector<Point2D>&, double, double, double, double, const Pose2D&)[m[K’:
+[1.971s] [01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:187:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.971s]   187 |         [01;35m[Kconst std::vector<Point2D>& trajectory[m[K,
+[1.971s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[1.971s] [01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:190:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdesired_v[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.971s]   190 |         [01;35m[Kdouble desired_v[m[K,
+[1.971s]       |         [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[1.971s] [01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:192:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.971s]   192 |         [01;35m[Kconst Pose2D& current_pose[m[K) {
+[1.971s]       |         [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[9.202s] [100%] [32m[1mLinking CXX executable obstacle_avoidance_controller[0m
+[9.729s] [100%] Built target obstacle_avoidance_controller
+[9.738s] Invoked command in '/home/kits/trajectory_ws/build/trajectory_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kits/trajectory_ws/build/trajectory_control -- -j16 -l16
+[9.746s] Invoking command in '/home/kits/trajectory_ws/build/trajectory_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kits/trajectory_ws/build/trajectory_control
+[9.752s] -- Install configuration: ""
+[9.753s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/lib/trajectory_control/trajectory_controller_node
+[9.753s] -- Installing: /home/kits/trajectory_ws/install/trajectory_control/lib/trajectory_control/obstacle_avoidance_controller
+[9.758s] [31mCMake Error at cmake_install.cmake:94 (file):
+[9.758s]   file INSTALL cannot find
+[9.758s]   "/home/kits/trajectory_ws/src/trajectory_control/scripts/spawn_obstacles.py":
+[9.758s]   No such file or directory.
+[9.758s] 
+[9.758s] [0m
+[9.758s] -- Set runtime path of "/home/kits/trajectory_ws/install/trajectory_control/lib/trajectory_control/obstacle_avoidance_controller" to ""
+[9.758s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//launch
+[9.758s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//launch/trajectory_controller.launch.py
+[9.758s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//config
+[9.758s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//config/trajectory_control.rviz
+[9.758s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/share/trajectory_control//config/controller_params.yaml
+[9.758s] -- Up-to-date: /home/kits/trajectory_ws/install/trajectory_control/lib/trajectory_control/waypoint_publisher.py
+[9.759s] Invoked command in '/home/kits/trajectory_ws/build/trajectory_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kits/trajectory_ws/build/trajectory_control

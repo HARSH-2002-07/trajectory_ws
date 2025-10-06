@@ -1,0 +1,16 @@
+[01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:[m[K In member function ‘[01m[Kdouble DWAObstacleAvoidance::evaluate_trajectory(const std::vector<Point2D>&, double, double, double, double, const Pose2D&)[m[K’:
+[01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:187:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  187 |         [01;35m[Kconst std::vector<Point2D>& trajectory[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:190:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdesired_v[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  190 |         [01;35m[Kdouble desired_v[m[K,
+      |         [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/kits/trajectory_ws/src/trajectory_control/src/obstacle_avoidance_controller.cpp:192:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  192 |         [01;35m[Kconst Pose2D& current_pose[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[31mCMake Error at cmake_install.cmake:94 (file):
+  file INSTALL cannot find
+  "/home/kits/trajectory_ws/src/trajectory_control/scripts/spawn_obstacles.py":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,4 @@
+Invoking command in '/home/kits/trajectory_ws/build/trajectory_control': /usr/bin/cmake /home/kits/trajectory_ws/src/trajectory_control -DCMAKE_INSTALL_PREFIX=/home/kits/trajectory_ws/install/trajectory_control
+Invoked command in '/home/kits/trajectory_ws/build/trajectory_control' returned '0': /usr/bin/cmake /home/kits/trajectory_ws/src/trajectory_control -DCMAKE_INSTALL_PREFIX=/home/kits/trajectory_ws/install/trajectory_control
+Invoking command in '/home/kits/trajectory_ws/build/trajectory_control': /usr/bin/cmake --build /home/kits/trajectory_ws/build/trajectory_control -- -j16 -l16
+Invoked command in '/home/kits/trajectory_ws/build/trajectory_control' returned '0': /usr/bin/cmake --build /home/kits/trajectory_ws/build/trajectory_control -- -j16 -l16
